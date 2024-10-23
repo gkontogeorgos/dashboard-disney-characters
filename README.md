@@ -1,5 +1,5 @@
 
-# Pie Chart Configurator
+# Dashboard with data table and pie chart for disney characters
 
 This project allows you to search and fetch data of disney characters on a table and update the pie chart based on that data, and also dynamically configure a pie chart's settings (like `legend` and `size`) through a user-friendly interface.
 
