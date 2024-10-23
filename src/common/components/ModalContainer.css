@@ -1,0 +1,68 @@
+.modalPaper {
+  max-height: fit-content;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.italicText {
+  font-style: italic;
+  font-size: 10pt;
+  text-align: center;
+}
+
+.closeButtonText {
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: bold;
+  text-transform: none;
+  border-radius: 6px;
+  padding: 6px 20px;
+}
+
+/* .closeButtonText:hover {
+  background-color: #115293;
+} */
+
+.enlargedImage {
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.contentBox {
+  margin-top: 16px;
+}
+
+.previewContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.noImageText {
+  font-style: italic;
+  font-size: 12pt;
+  color: gray;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.noImageFoundContainer {
+  height: 190px;
+  align-content: center;
+  padding: 20px;
+}

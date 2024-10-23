@@ -1,0 +1,27 @@
+.card-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pie-chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pie-chart-header h2 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.export-button {
+  transition: all 0.3s ease !important;
+}
+
+.export-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
